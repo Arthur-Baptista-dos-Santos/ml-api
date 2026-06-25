@@ -132,8 +132,8 @@ ml-api/
 
 - **`Regressão linear`**: prevê valor contínuo (preço) a partir de variáveis numéricas (área, quartos, banheiros, garagem)
 - **`Train/test split`**: separa dados em treino (80%) e teste (20%) para avaliar generalização do modelo
-- **`R²`**: mede quanto da variação do preço é explicada pelo modelo — 1.0 é perfeito
-- **`MAE`**: erro médio absoluto em reais — quanto o modelo erra em média por imóvel
+- **`R²`**: mede quanto da variação do preço é explicada pelo modelo, 1.0 é perfeito
+- **`MAE`**: erro médio absoluto em reais, quanto o modelo erra em média por imóvel
 - **`joblib`**: serializa o modelo treinado em arquivo `.pkl` para uso sem retreinamento
 - **`FastAPI`**: framework para construir APIs REST com validação automática via Pydantic
 - **`Pydantic`**: valida e documenta os dados de entrada da API automaticamente
