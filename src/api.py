@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+﻿from fastapi import FastAPI
 from pydantic import BaseModel, Field
 import joblib
 import numpy as np
@@ -15,7 +15,7 @@ class Imovel(BaseModel):
 
 @app.get("/")
 def root():
-    return {"status": "online", "modelo": "regressão linear — previsão de preço de imóveis"}
+    return {"status": "online", "modelo": "regressão linear - previsão de preço de imóveis"}
 
 @app.post("/prever")
 def prever(imovel: Imovel):
