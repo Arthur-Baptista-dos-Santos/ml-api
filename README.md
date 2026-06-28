@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-abs--ml--imoveis.streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://abs-ml-imoveis.streamlit.app)
+
 # `ML API (Previsão de Preço de Imóveis)`
 
 > Modelo de machine learning servido como API REST com FastAPI e interface web com Streamlit.
